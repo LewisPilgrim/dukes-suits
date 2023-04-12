@@ -1,9 +1,14 @@
 import './App.css';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
+import HeroSection from './components/HeroSection';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <HeroSection />
+      <Gallery />
+      <Footer />
     </div>
   );
 }

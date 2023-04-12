@@ -1,0 +1,60 @@
+.container {
+    width: 1008px;
+    margin: 4rem auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.gallery-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-items h2 {
+    display: inline;
+}
+
+.divider-black {
+    height: 15px;
+    width: 2px;
+    margin: 0 15px;
+    background-color: #000;
+    display: inline-block;
+}
+
+.right-items {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.filters {
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #aaa;
+    border-radius: 3px;
+    margin: 0 1rem;
+}
+
+.filters:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.toggle-box {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin-top: 3px;
+}
+
+.grey {
+    margin: 4px !important;
+    color: #eee;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

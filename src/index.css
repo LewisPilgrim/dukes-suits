@@ -1,5 +1,27 @@
-html, body {
+html, body, * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+:root {
+  --color-orange: #DEA55D;
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+
+.btn {
+  padding: 1rem;
+  border: 2px solid transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 2px solid #ccc;
+  color: #ccc;
 }
